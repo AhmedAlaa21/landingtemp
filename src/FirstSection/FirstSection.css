@@ -1,0 +1,95 @@
+.first-sec{
+    z-index: 9;
+    position: relative;
+    color: #fff;
+}
+
+.first-sec .first-partition{
+    width: 585px;
+    margin: 50px auto;
+}
+
+img{
+    border-style: none;
+    vertical-align: middle;
+}
+
+.desc{
+    width: 580px;
+    margin: 50px auto;
+}
+
+.desc-head {
+    font-size: 67px;
+    margin: 60px auto 40px;
+    line-height: 1.2;
+    font-weight: bold;
+    color: #e84c3d;
+}
+
+.desc-head2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.thumb{
+    margin: auto;
+    width: 100%;
+    background-color: #e84c3d;
+}
+
+/* DESC CSS */
+
+.desc-ul{
+    margin-bottom: 0;
+}
+
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+
+.desc-ul li {
+    text-align: right;
+    font-size: 28px;
+    position: relative;
+    color: #fff;
+    padding-right: 30px;
+    margin-bottom: 17px;
+    line-height: 1.5;
+}
+
+.desc-ul li:before{
+        content: "";
+        position: absolute;
+        top: 4px;
+        right: 0;
+        width: 9px;
+        height: 105%;
+        background: #e54c3a;
+        border-radius: 5px;
+}
+.desc-btn {
+    background: #9e0f1c!important;
+    color: #fff;
+    width: 445px;
+    font-size: 40px;
+    line-height: 1.5;
+    border-radius: 8px;
+    position: relative;
+    border: 0;
+    padding: 0px 0 14px;
+    margin: 20px auto 0;
+    font-weight: bold;
+}
+
+.desc-btn span:first-of-type {
+    font-size: 0.4em;
+    display: block;
+    font-weight: 400;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background: #9e0f1c;
+    position: relative;
+}
